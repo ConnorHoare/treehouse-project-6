@@ -1,0 +1,31 @@
+{
+  'projects': [
+    {
+      "id": 0,
+      "project_name": "project 1",
+      "description": "the first proeject",
+      "technologies": ["tech1", "tech2", "tech3"],
+      "live_link": "live web link",
+      "github_link": "link to git project",
+      "image_urls": ["image1", "image2", "image3"]
+    },
+    {
+      "id": 1,
+      "project_name": "project 2",
+      "description": "the second proeject",
+      "technologies": ["tech1", "tech2", "tech3"],
+      "live_link": "live web link",
+      "github_link": "link to git project",
+      "image_urls": ["image1", "image2", "image3"]
+    },
+    {
+      "id": 2,
+      "project_name": "project 3",
+      "description": "the third proeject",
+      "technologies": ["tech1", "tech2", "tech3"],
+      "live_link": "live web link",
+      "github_link": "link to git project",
+      "image_urls": ["image1", "image2", "image3"]
+    },
+  ]
+}
