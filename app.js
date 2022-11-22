@@ -2,15 +2,16 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const pug = require('pug');
 const path = require('path');
+const { data } = require('./data.json');
+const { projects } = data;
 
 const app = express();
 
 app.set('view engine', 'pug');
 app.use('/static', express.static(path.join(__dirname, '/public')));
 
-
 app.get("/", (req, res) => {
-  res.render('index');
+  res.render('index', {projects: projects});
 });
 
 app.get("/about", (req, res) => {
@@ -18,21 +19,16 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/project/:id", (req, res) => {
-  const id = req.params;
-  if (id === 0) {
-    console.log("show first project");
-  }
-  else if (id === 1) {
-    console.log("show second project");
-  }
-  else if (id === 2) {
-    console.log("show third project");
-  }
-  else {
-    console.log("this path does not exist");
-  }
 
-})
+  res.render('project', {
+    name: projects[req.params.id].project_name,
+    description: projects[req.params.id].description,
+    technologies: projects[req.params.id].technologies,
+    liveLink: projects[req.params.id].live_link,
+    githubLink: projects[req.params.id].github_link,
+    images: projects[req.params.id].images
+  });
+});
 
 app.listen(3000, () => {
   console.log("server started on port 3000");
