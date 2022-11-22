@@ -2,30 +2,30 @@
   'projects': [
     {
       "id": 0,
-      "project_name": "project 1",
-      "description": "the first proeject",
-      "technologies": ["tech1", "tech2", "tech3"],
-      "live_link": "live web link",
-      "github_link": "link to git project",
-      "image_urls": ["image1", "image2", "image3"]
+      "project_name": "Random Quotes Generator",
+      "description": "A website which generates random quotes from famous people.",
+      "technologies": ["javascript", "html", "css"],
+      "live_link": "https://connorhoare.github.io/treehouse-project-1/",
+      "github_link": "https://github.com/ConnorHoare/treehouse-project-1",
+      "image_urls": ["/static/images/project-1.jpg", "/static/images/project-1-main.png"]
     },
     {
       "id": 1,
-      "project_name": "project 2",
-      "description": "the second proeject",
-      "technologies": ["tech1", "tech2", "tech3"],
-      "live_link": "live web link",
-      "github_link": "link to git project",
-      "image_urls": ["image1", "image2", "image3"]
+      "project_name": "Full Stack Conference Form",
+      "description": "Form submission for the Full Stack Conference.",
+      "technologies": ["Javascript", "html", "css"],
+      "live_link": "https://connorhoare.github.io/treehouse-unit-3/",
+      "github_link": "https://github.com/ConnorHoare/treehouse-unit-3",
+      "image_urls": ["/static/images/project-3-main.png", "/static/images/project-3.jpg", "/static/images/project-3-a.png"]
     },
     {
       "id": 2,
-      "project_name": "project 3",
-      "description": "the third proeject",
-      "technologies": ["tech1", "tech2", "tech3"],
-      "live_link": "live web link",
-      "github_link": "link to git project",
-      "image_urls": ["image1", "image2", "image3"]
+      "project_name": "Phrase Game",
+      "description": "Phrase game that takes words and user guesses the word, they only have 5 lives to get the word.",
+      "technologies": ["Javascript", "html", "css"],
+      "live_link": "https://connorhoare.github.io/Treehouse-unit-4/",
+      "github_link": "https://github.com/ConnorHoare/Treehouse-unit-4",
+      "image_urls": ["/static/images/project-5.jpg", "/static/images/phrase-main.png", "/static/images/phrase-won.png"]
     },
   ]
 }
