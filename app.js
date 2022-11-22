@@ -2,8 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const pug = require('pug');
 const path = require('path');
-const { data } = require('./data.json');
-const { projects } = data;
+const { projects } = require('./data.json');
 
 const app = express();
 
@@ -11,7 +10,7 @@ app.set('view engine', 'pug');
 app.use('/static', express.static(path.join(__dirname, '/public')));
 
 app.get("/", (req, res) => {
-  res.render('index', {projects: projects});
+  res.render('index', { projects });
 });
 
 app.get("/about", (req, res) => {
@@ -26,7 +25,7 @@ app.get("/project/:id", (req, res) => {
     technologies: projects[req.params.id].technologies,
     liveLink: projects[req.params.id].live_link,
     githubLink: projects[req.params.id].github_link,
-    images: projects[req.params.id].images
+    images: projects[req.params.id].image_urls
   });
 });
 
