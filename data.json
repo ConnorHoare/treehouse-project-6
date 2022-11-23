@@ -7,7 +7,7 @@
       "technologies": ["Javascript", "html", "css"],
       "live_link": "https://connorhoare.github.io/treehouse-project-1/",
       "github_link": "https://github.com/ConnorHoare/treehouse-project-1",
-      "image_urls": ["/static/images/project-1-main.png", "/static/images/project-1.jpg"]
+      "image_urls": ["/static/images/random-quotes-main.png", "/static/images/random-quotes-1.jpg"]
     },
     {
       "id": "1",
@@ -16,7 +16,7 @@
       "technologies": ["Javascript", "html", "css"],
       "live_link": "https://connorhoare.github.io/treehouse-unit-3/",
       "github_link": "https://github.com/ConnorHoare/treehouse-unit-3",
-      "image_urls": ["/static/images/project-3-main.png", "/static/images/project-3.jpg", "/static/images/project-3-a.png"]
+      "image_urls": ["/static/images/fullStackFormMain.png", "/static/images/fullStackForm1.png"]
     },
     {
       "id": "2",
@@ -25,7 +25,7 @@
       "technologies": ["Javascript", "html", "css"],
       "live_link": "https://connorhoare.github.io/Treehouse-unit-4/",
       "github_link": "https://github.com/ConnorHoare/Treehouse-unit-4",
-      "image_urls": ["/static/images/phrase-main.png", "/static/images/project-5.jpg", "/static/images/phrase-won.png"]
+      "image_urls": ["/static/images/phrase-main.png", "/static/images/phraseGame.jpg"]
     }
   ]
 }
