@@ -36,13 +36,6 @@ app.get("/project/:id", (req, res, next) => {
   }
 });
 
-app.get("/error", (req, res, next) => {
-  const err = new Error();
-  err.message = "Custom 500 error thrown";
-  err.status = 500
-  throw err
-})
-
 app.use((req, res, next) => {
   res.status(404).render("page-not-found");
 })
