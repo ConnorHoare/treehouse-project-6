@@ -21,14 +21,14 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fefefe;
-  background: #000;
+  background: #0A136F;
+  background: #0A136F;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
 
 article {
-  background: #fefefe;
+  background: #0A136F;
 }
 
 h1,h2,h3,h4,h5,p{
@@ -63,7 +63,7 @@ a {
   min-width: 320px;
   height: 100%;
   min-height: 100%;
-  background: #fefefe;
+  background: #0A136F;
 }
 
 .flex-row-wrap {
@@ -109,6 +109,7 @@ nav {
   width: 100%;
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
+  background-color: #0A136F;
 }
 
 nav a {
@@ -119,7 +120,7 @@ nav a {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555; 
+  color: white; 
 }
 
 nav a span {
@@ -137,7 +138,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: white;
 }
 
 .sidebar-info-box {
@@ -151,7 +152,7 @@ nav a span {
 .sidebar .thumbnail {
   width: 100%;
   max-width: 250px;
-  border: 4px solid #fff;
+  border: 4px solid grey;
 }
 
 .dev-intro-box {
@@ -159,7 +160,7 @@ nav a span {
 }
 
 .sidebar h5 {
-  color: #fefefe;
+  color: black;
   margin: 0 auto 0.5rem;
 }
 
@@ -176,7 +177,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: black  ;
 }
 
 .header {
@@ -229,7 +230,7 @@ nav a span {
 
 .portfolio-intro h1 {
   font-size: 1.5rem;
-  color: #0a0a0a;
+  color: white;
   margin: 0 auto 8px;
 }
 
@@ -238,7 +239,12 @@ nav a span {
   font-size: 125%;
   margin: 0 auto;
   padding-bottom: 40px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #EE3A98;
+  color: white;
+}
+
+.projects-box {
+  background-color: #0A136F;
 }
 
 .projects-box h5 {
@@ -258,17 +264,34 @@ nav a span {
 .cell img {
   width: 100%;
   min-width: 100px;
-  border: 4px solid #fff;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  border: 2px solid white;
+  box-shadow: 8px 8px 10px rgba(10, 10, 10, 0.2);
 }
 
 
 /* 
   About and project pages styles 
 */
+.about-intro-box {
+  background-color: #0A136F;
+}
+
+.about-intro-box h1 {
+  color: white;
+}
+
+.project-info-box {
+  background-color: #0A136F;
+}
+
+.project-info-box h1 {
+  color: white;
+}
+
 .about-intro-box p,
 .project-info-box p {
   font-size: 125%;
+  color: white;
 }
 
 .about-bio p {
@@ -276,8 +299,17 @@ nav a span {
   padding-top: 40px;
 }
 
+.skills-contact-box {
+  background-color: #0A136F;
+}
+
 .skills-contact-box ul {
   margin-bottom: 35px;
+  color: white;
+}
+
+.skills-contact-box h6 {
+  color: white;
 }
 
 .project-img {
@@ -288,6 +320,10 @@ nav a span {
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
 
+.project-img-box {
+  border: 2px solid #0A136F;
+}
+
 .btn-link {
   display: block;
   text-align: center;
@@ -296,8 +332,14 @@ nav a span {
   max-width: 255px;
   margin: auto 0 5px 0;
   padding: 0.85em 1em;
-  background-color: #333;
+  background-color: #EE3A98;
   border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.project-tech-links-box {
+  background-color: #0A136F;
+  color: white;
 }
 
 

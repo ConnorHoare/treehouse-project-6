@@ -16,7 +16,7 @@
       "technologies": ["Javascript", "html", "css"],
       "live_link": "https://connorhoare.github.io/treehouse-unit-3/",
       "github_link": "https://github.com/ConnorHoare/treehouse-unit-3",
-      "image_urls": ["/static/images/fullStackFormMain.png", "/static/images/fullStackForm1.png"]
+      "image_urls": ["/static/images/fullStackMain.png", "/static/images/fullStackForm1.png"]
     },
     {
       "id": "2",

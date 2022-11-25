@@ -37,7 +37,10 @@ app.get("/project/:id", (req, res, next) => {
 });
 
 app.use((req, res, next) => {
-  res.status(404).render("page-not-found");
+  const err = new Error();
+    err.status = 404;
+    err.message = "Sorry this page does not exist";
+    next(err);
 })
 
 app.use((err, req, res, next) => {
