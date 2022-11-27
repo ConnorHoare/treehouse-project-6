@@ -23,9 +23,27 @@
       "project_name": "Phrase Game",
       "description": "Phrase game that takes words and user guesses the word, they only have 5 lives to get the word.",
       "technologies": ["Javascript", "html", "css"],
+      "live_link": "https://connorhoare.github.io/Treehouse_project_5/",
+      "github_link": "https://github.com/ConnorHoare/Treehouse_project_5/",
+      "image_urls": ["/static/images/phrase-main.png", "/static/images/phraseGame.jpg"]
+    },
+    {
+      "id": "3",
+      "project_name": "Employee Directory",
+      "description": "Employee Directory for the Awesome StartUp. Showing all personal information.",
+      "technologies": ["Javascript", "html", "css"],
       "live_link": "https://connorhoare.github.io/Treehouse-unit-4/",
       "github_link": "https://github.com/ConnorHoare/Treehouse-unit-4",
-      "image_urls": ["/static/images/phrase-main.png", "/static/images/phraseGame.jpg"]
+      "image_urls": ["/static/images/EmployeeDirMain.png", "/static/images/EmployeeDirSecond.png"]
+    },
+    {
+      "id": "4",
+      "project_name": "Student List",
+      "description": "List of students who attended the online programme, with information including name, email and the date joining the course",
+      "technologies": ["Javascript", "html", "css"],
+      "live_link": "https://connorhoare.github.io/treehouse-unit-2/",
+      "github_link": "https://github.com/ConnorHoare/treehouse-unit-2",
+      "image_urls": ["/static/images/StudentListMain.png", "/static/images/StudentListSecond.png"]
     }
   ]
 }
